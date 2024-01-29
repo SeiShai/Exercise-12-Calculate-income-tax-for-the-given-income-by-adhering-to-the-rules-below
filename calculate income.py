@@ -11,6 +11,6 @@ elif income <= 20000:
 else:
     tax_payable = 0
     tax_payable = 10000 * 10 / 100
-    tax_payable = (income - 20000) * 20 / 100
+    tax_payable += (income - 20000) * 20 / 100
 
 print('Tax payable is:', tax_payable)
